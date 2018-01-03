@@ -1,0 +1,508 @@
+/* 
+    Created on  : Dec 29, 2017, 1:44:49 AM
+    Author      : Saki Rezwanul Haque
+    Batch       : CTG Online 07 (Responsive Web Design)
+
+*/
+
+/* for mobile responsiveness */
+    
+ @media (min-width: 767px) {
+}
+
+/* for tab responsiveness */
+@media (max-width: 1200px) and (min-width: 767px) {  }
+
+/* for desktop responsiveness */
+@media (min-width: 1200px){  }
+
+/*
+    Created on  : Dec 26, 2017, 6:09:36 AM
+    Author      : Saki Rezwanul Haque
+    Batch       : CTG Online 07 (Responsive Web Design)
+*/
+
+/* Styling starts from here */
+
+body {
+    font-family: 'Open Sans', 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+/* .sliderWrapper starts here */
+
+.sliderWrapper{
+    background-image: url('../images/background_shadow.png'), url('../images/slider_background.png');
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-size: cover, cover;
+    padding-top: 41px;
+    padding-bottom: 15px
+}
+
+.navbar {
+    background: transparent;
+    border: none;
+}
+
+.navbar-header > a > img {
+    width: 130px;
+}
+
+.navbar-nav > li > a {
+    color: #a9a9a9;
+    transition: all 0.6s;
+    text-shadow: 0px 0px 10px #f7600e !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2) !important;
+}
+
+.navbar-nav > li > a:hover {
+    color: #f7600e !important;
+    border-bottom: 2px solid #f7600e;
+    margin-top: -12px;
+    text-shadow: 0px 0px 10px #f7600e;
+    box-shadow: 0 5px 15px #f7600e;
+}
+
+.dropdown-menu {
+    background: #474e56;
+}
+
+.dropdown-menu > li > a {
+    color: #a9a9a9;
+    transition: all 0.5s;
+}
+
+.dropdown-menu > li > a:hover {
+    color: #f7600e !important;
+    background: #474e56;
+    border-bottom: 2px solid #f7600e;
+    margin: 10px auto;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #f7600e;
+}
+
+.textElm > h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 56px auto 0;
+}
+
+.textElm > h1 > span {
+    color: #f5600f;
+}
+.textElm > p {
+    color: #d3dfed;
+    font-size: 16px;
+    font-weight: 300;
+    white-space: pre-line;
+    padding-top: 12px;
+    margin-bottom: 40px;
+}
+
+.textElm > span > .btnOne {
+    text-shadow: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    background: #f5600f;
+    padding: 8px 45px;
+    border: 1px solid #e65c00;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.textElm > span > .btnOne:hover {
+    text-decoration: none;
+    background: #e14f00;
+    border: 1px solid #ff944d;
+}
+
+.textElm > span > .btnTwo {
+    text-shadow: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    background: transparent;
+    padding: 8px 35px;
+    border: 1px solid #f1f2f6;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 5px
+}
+
+.textElm > span > .btnTwo:hover{
+    text-decoration: none;
+    background: #363C44;
+    border: 1px solid black;
+}
+
+.textElm > img {
+    width: 21px;
+    margin: 80px auto 20px;
+    transition: all 1.2s;
+}
+
+.textElm > img:hover {
+    width: 21px;
+    transform: rotate(360deg);
+}
+
+/* .designWrapper starts here */
+
+.designWrapper {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.designContainer .thumbnail > .caption {
+    margin-bottom: 0;
+}
+
+.designContainer .thumbnail > img {
+    width: 97px;
+}
+
+.designContainer .thumbnail > .caption > h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.designContainer .thumbnail > .caption > p {
+    font-size: 12px;
+    padding-top: 8px;    
+}
+
+.designContainer .thumbnail {
+    border: none;
+    opacity: 0.8;
+    -webkit-transition: all 1.2s;
+    -moz-transition: all 1.2s;
+    transition: all 1.2s;
+}
+
+.designContainer .thumbnail:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* .newsWrapper starts here*/
+
+.newsWrapper {
+    background-image: url('../images/tea_transparent.png'), url('../images/tea.png');
+    background-position: center, center;
+    background-attachment: scroll, scroll;
+    background-size: cover;
+    padding-top: 78px;
+    padding-bottom: 60px;
+    margin-top: 61px;
+}
+
+.newsContainer .form-control {
+    height: 36px;
+    color: #a9a9a9;
+    font-size: 12px;
+    font-weight: 200;
+    border-radius: 8px;
+}
+
+.input-group-addon {
+    border-radius: 8px;
+}
+
+.input-group-addon .fa-envelope {
+    color: #f5600f;
+}
+.formgn {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.newsContainer .btnThree {
+    text-shadow: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    background: #f5600f;
+    padding: 8px 26%;
+    border: 1px solid #e65c00;
+    border-radius: 8px;
+}
+
+.newsContainer .btnThree:hover {
+    text-decoration: none;
+    background: #e14f00;
+    border: 1px solid #ff944d;
+}
+
+/* .worksWrapper starts here */
+
+.worksWrapper {
+    margin-top: 61px;
+}
+
+.worksWrapper .introH > h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+
+.worksWrapper .introH > h1 > span {
+    color: #f5600f;
+}
+
+.worksWrapper .introH > p {
+    color: #6c6963;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: pre-line;
+    margin-bottom: 60px;
+}
+
+.worksContent .thumbnail {
+    border: none;
+}
+
+.worksContent .thumbnail > img {
+    opacity: 0.8;
+    transition: all 1s;
+}
+
+.worksContent .thumbnail > img:hover {
+    opacity: 1;
+    transform: scale(0.95);
+}
+
+.worksContent .btnFour {
+    text-shadow: none;
+    color: #454952;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 8px 38px;
+    border: 1px solid #454952;
+    border-radius: 8px;
+    margin-top: 66px;
+}
+
+.worksContent .btnFour:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #363C44;
+    border-color: #000;
+}
+
+/* .testWrapper starts here */
+
+.testWrapper {
+    color: #ddd;
+    background-image: url('../images/face_transparent.png'), url('../images/face_mainbg.png');
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-size: cover;
+    padding-top: 74px;
+    padding-bottom: 57px;
+    margin-top: 65px;
+}
+
+.testContent > img {
+    width: 91px;
+}
+
+.testContent > h1 {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    white-space: pre-line;
+    line-height: normal;
+    padding-top: 12px;
+}
+
+.testContent > p {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 16px;
+}
+
+/* teamWrapper starts here */
+
+.teamWrapper {
+    margin-top: 52px;
+}
+
+.teamWrapper .teamHeader > h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.teamWrapper .teamHeader > h1 > span {
+    color: #f5600f;    
+}
+
+.teamWrapper .teamHeader > p {
+    color: #6c6963;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: pre-line;
+    margin-bottom: 60px;
+}
+
+.teamWrapper .thumbnail {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+.teamWrapper .thumbnail:hover {
+    opacity: 1;
+}
+.teamWrapper .thumbnail > img {
+    width: 165px;
+    -webkit-transition: all 1s;   
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.teamWrapper .thumbnail > img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    margin-top: -20px;
+    border-bottom: 4px solid #f7600f;
+    border-radius: 5px;
+}
+
+.teamWrapper .caption {
+    margin-bottom: 0;
+}
+
+.teamWrapper .caption > h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px auto 10px;
+}
+
+.teamWrapper .thumbnail > .caption > .socialIcons > a > .fa {
+    color: #454952;
+    -webkit-transition: all 0.7s;   
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+}
+
+.teamWrapper .thumbnail > .caption > .socialIcons > a > .fa-twitter-square {
+    margin: 0 5px;
+}
+
+.teamWrapper .thumbnail > .caption > .socialIcons > a > .fa-facebook-square:hover {
+    color: #3b5998;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);   
+}
+
+.teamWrapper .thumbnail > .caption > .socialIcons > a > .fa-twitter-square:hover {
+    color: #1da1f2;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);   
+}
+
+.teamWrapper .thumbnail > .caption > .socialIcons > a > .fa-google-plus-square:hover {
+    color: #db4437;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);   
+}
+
+.teamWrapper .thumbnail > .caption > p {
+    color: #6c6963;
+    font-size: 10px;
+    font-weight: 600;
+    white-space: pre-line;
+}
+
+/* .footerWrapper starts here */
+
+.footerWrapper{
+    background-image: url(../images/footer_background_shadow.png), url(../images/footer_background.png);
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-size: cover, cover;
+    padding-top: 40px;
+    padding-bottom: 44px;
+    margin-top: 45px;
+}
+
+.footerWrapper .footerHeader > h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footerWrapper .footerHeader > h1 > span {
+    color: #f5600f;
+
+}
+
+.footerWrapper .footerHeader > p {
+    color: #e3e3e3;
+    font-size: 13px;
+    font-weight: 200;
+    white-space: pre-line;
+    margin-bottom: 70px;
+}
+
+.footerForm .form-control {
+    color: #a9a9a9;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 8px;
+}
+
+.footerWrapper .ftBottom .btnFive {
+    text-shadow: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    background: #f5600f;
+    padding: 8px 45px;
+    border: 1px solid #e65c00;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.footerWrapper .ftBottom .btnFive:hover {
+    text-decoration: none;
+    background: #e14f00;
+    border: 1px solid #ff944d;
+}
+
+.ftBottom > .socialIcons > ul > li > a > img {
+    width: 31px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.ftBottom > .socialIcons > ul > li > a > img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+/* .ftbWrapper starts here */
+
+.ftbWrapper {
+    color: #e4e4e4;
+    font-size: 13px;
+    font-weight: 500;
+    background: #3B444D;
+    padding-top: 30px;
+    padding-bottom: 18px;
+}
